@@ -68,7 +68,8 @@ def arabictoroman(arabicnum):
     romannum.append('I' * i)
     
     output = ""
-    print(output.join(romannum))
+    return output.join(romannum)
+    print(output)
 
 def main():
     try:
